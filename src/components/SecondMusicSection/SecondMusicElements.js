@@ -8,7 +8,12 @@ export const SecondMusicContent = styled.div`
   position: relative;
   flex-direction: row;
   align-items: center;
-  background: radial-gradient(#ececec, #666); ;
+  background: radial-gradient(#ececec, #666);
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    height: 1200px;
+  }
 `;
 
 export const SecondMusicH1 = styled.h1`
@@ -16,12 +21,12 @@ export const SecondMusicH1 = styled.h1`
   font-size: 60px;
   text-align: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1380px) {
     font-size: 40px;
   }
 
-  @media screen and (max-width: 380px) {
-    font-size: 32px;
+  @media screen and (max-width: 1000px) {
+    margin-top: 30px;
   }
 `;
 
@@ -33,12 +38,16 @@ export const SecondMusicP = styled.p`
   width: 50%;
   margin-left: 25%;
 
-  @media screen and (max-width: 768px) {
-    font-size: 20px;
+  @media screen and (max-width: 1380px) {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
   }
 
-  @media screen and (max-width: 380px) {
-    font-size: 16px;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 25px;
   }
 `;
 
@@ -47,6 +56,10 @@ export const SecondMusicBtnWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 1380px) {
+    margin-bottom: 40px;
+  }
 `;
 
 export const SecondMusicImg = styled.div`
@@ -57,6 +70,10 @@ export const SecondMusicImg = styled.div`
   width: 60%;
   height: 100%;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 export const ImageMusic = styled.img`
@@ -68,4 +85,12 @@ export const ImageMusic = styled.img`
 
 export const SecondMusicTextWrapper = styled.div`
   width: 40%;
+
+  @media screen and (max-width: 1000px) {
+    width: 60%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 80%;
+  }
 `;

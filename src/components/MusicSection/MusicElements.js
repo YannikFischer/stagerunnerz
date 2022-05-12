@@ -8,7 +8,12 @@ export const MusicContent = styled.div`
   position: relative;
   flex-direction: row;
   align-items: center;
-  background: radial-gradient(#ececec, #666); ;
+  background: radial-gradient(#ececec, #666);
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    height: 1200px;
+  }
 `;
 
 export const MusicH1 = styled.h1`
@@ -16,12 +21,12 @@ export const MusicH1 = styled.h1`
   font-size: 60px;
   text-align: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1380px) {
     font-size: 40px;
   }
 
-  @media screen and (max-width: 380px) {
-    font-size: 32px;
+  @media screen and (max-width: 1000px) {
+    margin-top: 30px;
   }
 `;
 
@@ -33,12 +38,16 @@ export const MusicP = styled.p`
   width: 50%;
   margin-left: 25%;
 
-  @media screen and (max-width: 768px) {
-    font-size: 20px;
+  @media screen and (max-width: 1380px) {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
   }
 
-  @media screen and (max-width: 380px) {
-    font-size: 16px;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 25px;
   }
 `;
 
@@ -57,6 +66,11 @@ export const MusicImg = styled.div`
   width: 60%;
   height: 100%;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    margin-top: 30px;
+  }
 `;
 
 export const ImageMusic = styled.img`
@@ -68,4 +82,14 @@ export const ImageMusic = styled.img`
 
 export const MusicTextWrapper = styled.div`
   width: 40%;
+
+  @media screen and (max-width: 1000px) {
+    width: 60%;
+    margin-top: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 80%;
+    margin-top: 30px;
+  }
 `;

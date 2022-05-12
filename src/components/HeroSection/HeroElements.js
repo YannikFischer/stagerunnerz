@@ -10,6 +10,14 @@ export const HeroContainer = styled.div`
   height: 800px;
   position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 768px) {
+    height: 400px;
+  }
+
+  @media screen and (max-width: 380px) {
+    height: 300px;
+  }
 `;
 
 export const HeroBg = styled.div`
@@ -32,11 +40,11 @@ export const ImageBg = styled.img`
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    height: 50%;
+    height: 100%;
   }
 
   @media screen and (max-width: 380px) {
     width: 100%;
-    height: 30%;
+    height: 100%;
   }
 `;

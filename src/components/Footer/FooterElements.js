@@ -7,6 +7,10 @@ export const FooterContainer = styled.div`
   position: relative;
   align-items: center;
   background: #1e2121;
+
+  @media screen and (max-width: 1380px) {
+    height: 500px;
+  }
 `;
 
 export const FooterContent = styled.div`
@@ -17,6 +21,12 @@ export const FooterContent = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1380px) {
+    flex-direction: column;
+    postition: absolute;
+    top: 25%;
+  }
 `;
 
 export const FooterBox = styled.div`
@@ -24,10 +34,14 @@ export const FooterBox = styled.div`
   margin-top: 50px;
   height: 100px;
   position: relative;
-  /* display: flex;
-  flex-direction: column; */
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1380px) {
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+  }
 `;
 
 export const FooterTitle = styled.div`
@@ -48,10 +62,22 @@ export const FooterIcons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media screen and (max-width: 1380px) {
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 38%;
+  }
 `;
 
 export const Icon = styled.img`
-  width: 20%;
-  height: 20%;
+  width: 15%;
+  height: 15%;
   cursor: pointer;
+
+  @media screen and (max-width: 1380px) {
+    height: 20%;
+    width: 20%;
+  }
 `;
