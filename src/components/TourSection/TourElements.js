@@ -8,7 +8,12 @@ export const TourContent = styled.div`
   position: relative;
   flex-direction: row;
   align-items: center;
-  background: radial-gradient(#ececec, #666); ;
+  background: radial-gradient(#ececec, #666);
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    height: 1200px;
+  }
 `;
 
 export const TourImg = styled.div`
@@ -19,6 +24,11 @@ export const TourImg = styled.div`
   width: 60%;
   height: 100%;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    margin-top: 30px;
+  }
 `;
 
 export const ImageTour = styled.img`
@@ -30,6 +40,11 @@ export const ImageTour = styled.img`
 
 export const TourDatesContainer = styled.div`
   width: 40%;
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    margin-top: 30px;
+  }
 `;
 
 export const TourDateBoxContainer = styled.div`
@@ -48,10 +63,11 @@ export const TourDateBoxContainer = styled.div`
   &:last-child {
     border-bottom: none;
   }
-  /* 
-  &:first-child {
-    margin-top: 30%;
-  } */
+
+  @media screen and (max-width: 1000px) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 `;
 
 export const TourDate = styled.div`

@@ -3,7 +3,6 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/HeroSection/Hero";
 import Music from "../components/MusicSection/Music";
-import SecondMusic from "../components/SecondMusicSection/SecondMusic";
 import Tour from "../components/TourSection/Tour";
 import Merch from "../components/MerchSection/Merch";
 import About from "../components/AboutSection/About";
@@ -22,7 +21,6 @@ const Homepage = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <Music />
-      <SecondMusic />
       <Tour />
       <Merch />
       <About />

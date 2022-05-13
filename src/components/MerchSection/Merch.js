@@ -30,7 +30,7 @@ const Merch = () => {
             primary="true"
             onClick={() =>
               (window.location =
-                "mailto:yourmail@domain.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt Black. Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
+                "mailto:stagerunnerz@gmail.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt Black. Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
             }
           >
             Buy
@@ -47,7 +47,7 @@ const Merch = () => {
             primary="true"
             onClick={() =>
               (window.location =
-                "mailto:yourmail@domain.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt Blue. Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
+                "mailto:stagerunnerz@gmail.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt Blue. Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
             }
           >
             Buy
@@ -64,7 +64,7 @@ const Merch = () => {
             primary="true"
             onClick={() =>
               (window.location =
-                "mailto:yourmail@domain.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt White. Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
+                "mailto:stagerunnerz@gmail.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt White. Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
             }
           >
             Buy
