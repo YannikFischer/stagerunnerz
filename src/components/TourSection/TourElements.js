@@ -8,7 +8,7 @@ export const TourContent = styled.div`
   position: relative;
   flex-direction: row;
   align-items: center;
-  background: radial-gradient(#ececec, #666);
+  background: linear-gradient(0deg, #b3b3b3, #666);
 
   @media screen and (max-width: 1000px) {
     flex-direction: column;
@@ -67,6 +67,8 @@ export const TourDateBoxContainer = styled.div`
   @media screen and (max-width: 1000px) {
     margin-left: 5%;
     margin-right: 5%;
+    width: 80%;
+    display: block;
   }
 `;
 

@@ -109,6 +109,7 @@ export const SecondMusicContent = styled.div`
   @media screen and (max-width: 1000px) {
     flex-direction: column;
     height: 1200px;
+    background: linear-gradient(0deg, #666, #b3b3b3);
   }
 `;
 

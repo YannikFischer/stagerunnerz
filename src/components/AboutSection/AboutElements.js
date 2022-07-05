@@ -9,7 +9,11 @@ export const AboutContent = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: radial-gradient(#ececec, #666); ;
+  background: linear-gradient(0deg, #666, #b3b3b3);
+
+  @media screen and (max-width: 1000px) {
+    display: block;
+  }
 `;
 
 export const AboutH1 = styled.h1`
@@ -31,6 +35,11 @@ export const AboutP = styled.p`
 
 export const AboutTextWrapper = styled.div`
   width: 40%;
+
+  @media screen and (max-width: 1000px) {
+    height: 75%;
+    width: 100%;
+  }
 `;
 
 export const AboutImg = styled.div`
@@ -40,6 +49,11 @@ export const AboutImg = styled.div`
   align-items: center;
   justify-content: center;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px) {
+    /* height: 85%; */
+    width: 100%;
+  }
 `;
 
 export const ImageAbout = styled.img`

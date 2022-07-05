@@ -7,9 +7,8 @@ export const MerchContent = styled.div`
   height: 800px;
   position: relative;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  background: radial-gradient(#ececec, #666); ;
+  background: #b3b3b3;
 `;
 
 export const MerchH1 = styled.h1`
