@@ -12,7 +12,10 @@ export const AboutContent = styled.div`
   background: linear-gradient(0deg, #666, #b3b3b3);
 
   @media screen and (max-width: 1000px) {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 2400px;
+    width: 100%;
   }
 `;
 
@@ -22,6 +25,10 @@ export const AboutH1 = styled.h1`
   bottom: 0;
   overflow: hidden;
   text-align: center;
+
+  @media screen and (max-width: 1000px) {
+    margin-top: 75px;
+  }
 `;
 
 export const AboutP = styled.p`
@@ -31,13 +38,19 @@ export const AboutP = styled.p`
   text-align: center;
   width: 50%;
   margin-left: 25%;
+
+  @media screen and (max-width: 1000px) {
+    width: 80%;
+    margin-left: 10%;
+  }
 `;
 
 export const AboutTextWrapper = styled.div`
   width: 40%;
 
   @media screen and (max-width: 1000px) {
-    height: 75%;
+    height: 50%;
+    margin-bottom: 25px;
     width: 100%;
   }
 `;
