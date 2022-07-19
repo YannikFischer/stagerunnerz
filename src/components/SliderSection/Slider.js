@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 
-import { SliderContent, ImageContainer } from "./SliderElements";
-
-const Slider = (config) => {
-  const [imageIndex, setImageIndex] = useState(0);
-
+const Slider = () => {
   return (
-    <SliderContent>
-      <ImageContainer src={config[imageIndex].image} />
-    </SliderContent>
+    
   );
 };
 
