@@ -7,7 +7,9 @@ import Tour from "../components/TourSection/Tour";
 import Merch from "../components/MerchSection/Merch";
 import About from "../components/AboutSection/About";
 import Footer from "../components/Footer/Footer";
-import ExampleSlider from "../components/SliderSection/Slider";
+import Slider from "../components/SliderSection/Slider";
+
+import { SliderData } from "../components/SliderSection/SliderData";
 
 const Homepage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +25,8 @@ const Homepage = () => {
       <Hero />
       <Music />
       <Tour />
-      <Merch />
-      <ExampleSlider />
+      {/* <Merch /> */}
+      <Slider slides={SliderData} />
       <About />
       <Footer />
     </>
