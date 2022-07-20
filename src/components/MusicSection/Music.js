@@ -27,6 +27,12 @@ const Music = () => {
     setHover(!hover);
   };
 
+  const [secondHover, setSecondHover] = useState(false);
+
+  const onSecondHover = () => {
+    setSecondHover(!secondHover);
+  };
+
   return (
     <MainContent id="music">
       <MusicContent>
@@ -68,10 +74,10 @@ const Music = () => {
             <Button
               as="a"
               href="https://open.spotify.com/track/5tI8jSDyebq5NUt2pA1pDy?si=3f1f8885968547c8"
-              onMouseEnter={onHover}
-              onMouseLeave={onHover}
+              onMouseEnter={onSecondHover}
+              onMouseLeave={onSecondHover}
             >
-              Spotify {hover ? "🎧" : "😨"}
+              Spotify {secondHover ? "🎧" : "😨"}
             </Button>
           </SecondMusicBtnWrapper>
         </SecondMusicTextWrapper>

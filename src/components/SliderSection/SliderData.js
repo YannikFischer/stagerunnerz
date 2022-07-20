@@ -1,8 +1,11 @@
 export const SliderData = [
   {
-    image: "./tshirtblack.png",
+    image: "https://github.com/YannikFischer/stagerunnerz/blob/master/src/images/tshirtblack.png?raw=true",
   },
   {
-    image: "https://i.imgur.com/J08smpm.png",
+    image: "https://github.com/YannikFischer/stagerunnerz/blob/master/src/images/tshirtblue.png?raw=true",
+  },
+  {
+    image: "https://github.com/YannikFischer/stagerunnerz/blob/master/src/images/tshirtwhite.png?raw=true",
   },
 ];
