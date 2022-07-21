@@ -63,3 +63,63 @@
   transition: all 0.2s ease-in-out;
   background: #595959;
 }
+
+@media screen and (max-width: 1500px) {
+    .slider {
+        height: 600px;
+    }
+
+    .slider_container {
+        height: 700px;
+    }
+    
+    .image {
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .slider {
+        height: 500px;
+    }
+
+    .slider_container {
+        height: 600px;
+    }
+    
+    .image {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider {
+        height: 450px;
+    }
+
+    .slider_container {
+        height: 550px;
+    }
+    
+    .image {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slider {
+        height: 450px;
+    }
+
+    .slider_container {
+        height: 550px;
+    }
+    
+    .image {
+        width: 350px;
+        height: 280px;
+    }
+}

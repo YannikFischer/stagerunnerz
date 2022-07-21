@@ -43,8 +43,8 @@ const Slider = ({ slides }) => {
       <button
         className="slide_button"
         onClick={() =>
-          (window.location =
-            "mailto:stagerunnerz@gmail.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt. Color: ---fill in color here---, Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
+        (window.location =
+          "mailto:stagerunnerz@gmail.com?subject=Order Stagerunnerz Merch&body=I would like to order a T-Shirt. Color: ---fill in color here---, Size: ---fill in size here---, Quantity: ---fill in quantity here---, Message: ---fill in message here---, and your name: ---fill in name here---")
         }
       >
         Buy Now

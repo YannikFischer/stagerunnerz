@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/HeroSection/Hero";
 import Music from "../components/MusicSection/Music";
 import Tour from "../components/TourSection/Tour";
-import Merch from "../components/MerchSection/Merch";
 import About from "../components/AboutSection/About";
 import Footer from "../components/Footer/Footer";
 import Slider from "../components/SliderSection/Slider";
