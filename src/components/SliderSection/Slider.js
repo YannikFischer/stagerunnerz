@@ -15,8 +15,6 @@ const Slider = ({ slides }) => {
     setCurrentSlide(currentSlide === 0 ? length - 1 : currentSlide - 1);
   };
 
-  console.log(currentSlide);
-
   if (!Array.isArray(slides) || slides.length <= 0) {
     //no data or no array, doesnt return anything
     return null;

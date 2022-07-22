@@ -1,11 +1,15 @@
+import tshirtblack from "../../images/tshirtblack.png";
+import tshirtblue from "../../images/tshirtblue.png";
+import tshirtwhite from "../../images/tshirtwhite.png";
+
 export const SliderData = [
   {
-    image: "https://github.com/YannikFischer/stagerunnerz/blob/master/src/images/tshirtblack.png?raw=true",
+    image: tshirtwhite,
   },
   {
-    image: "https://github.com/YannikFischer/stagerunnerz/blob/master/src/images/tshirtblue.png?raw=true",
+    image: tshirtblue,
   },
   {
-    image: "https://github.com/YannikFischer/stagerunnerz/blob/master/src/images/tshirtwhite.png?raw=true",
+    image: tshirtblack,
   },
 ];
