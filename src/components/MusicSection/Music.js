@@ -55,12 +55,12 @@ const Music = () => {
           </MusicBtnWrapper>
         </MusicTextWrapper>
         <MusicImg>
-          <ImageMusic src={NuclearAccidentImage} />
+          <ImageMusic src={NuclearAccidentImage} alt="Nulcear Accident" />
         </MusicImg>
       </MusicContent>
       <SecondMusicContent>
         <SecondMusicImg>
-          <ImageMusic src={Paranoia} />
+          <ImageMusic src={Paranoia} alt="Paranoia" />
         </SecondMusicImg>
         <SecondMusicTextWrapper>
           <SecondMusicH1>PARANOIA</SecondMusicH1>

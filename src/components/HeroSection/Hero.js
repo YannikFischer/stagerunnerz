@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <ImageBg src={HeroImage} />
+        <ImageBg src={HeroImage} alt="Stagerunnerz Logo" />
       </HeroBg>
     </HeroContainer>
   );

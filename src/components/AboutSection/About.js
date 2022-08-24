@@ -14,7 +14,7 @@ const About = () => {
   return (
     <AboutContent id="about">
       <AboutImg>
-        <ImageAbout src={BossTilt} />
+        <ImageAbout src={BossTilt} alt="BossTilt" />
       </AboutImg>
       <AboutTextWrapper>
         <AboutH1>Kai</AboutH1>
@@ -26,7 +26,7 @@ const About = () => {
         </AboutP>
       </AboutTextWrapper>
       <AboutImg>
-        <ImageAbout src={Boss} />
+        <ImageAbout src={Boss} alt="Boss" />
       </AboutImg>
     </AboutContent>
   );

@@ -34,6 +34,7 @@ const Footer = () => {
             <Icon
               src={Instagram}
               onClick={() => onClick("https://www.instagram.com/stagerunnerz/")}
+              alt="Instagram"
             />
             <Icon
               src={Youtube}
@@ -42,10 +43,12 @@ const Footer = () => {
                   "https://www.youtube.com/channel/UCsyGowtRDhKe4w9HFl0EtZg"
                 )
               }
+              alt="Youtube"
             />
             <Icon
               src={Tiktok}
               onClick={() => onClick("https://www.tiktok.com/@stagerunnerz")}
+              alt="Tiktok"
             />
           </FooterIcons>
         </FooterBox>
