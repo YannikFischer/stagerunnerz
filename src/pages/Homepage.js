@@ -3,10 +3,10 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/HeroSection/Hero";
 import Music from "../components/MusicSection/Music";
-import Tour from "../components/TourSection/Tour";
 import About from "../components/AboutSection/About";
 import Footer from "../components/Footer/Footer";
 import Slider from "../components/SliderSection/Slider";
+import TourDates from "../components/TourDatesSection/TourDates";
 
 import { SliderData } from "../components/SliderSection/SliderData";
 
@@ -23,8 +23,7 @@ const Homepage = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <Music />
-      <Tour />
-      {/* <Merch /> */}
+      <TourDates />
       <Slider slides={SliderData} />
       <About />
       <Footer />
