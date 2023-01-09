@@ -39,9 +39,7 @@ const Music = () => {
         <MusicTextWrapper>
           <MusicH1>NUCLEAR ACCIDENT</MusicH1>
           <MusicP>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo
+            This track got its inspiration from a chernobyl documentation. It features new kicks and vocals. Available now on Spotify
           </MusicP>
           <MusicBtnWrapper>
             <Button
@@ -65,10 +63,7 @@ const Music = () => {
         <SecondMusicTextWrapper>
           <SecondMusicH1>PARANOIA</SecondMusicH1>
           <SecondMusicP>
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat
+            His first frenchcore appearance, created and released in 2020. The spooky sound and its catchy rythm really showed the potential of stagerunnerz
           </SecondMusicP>
           <SecondMusicBtnWrapper>
             <Button

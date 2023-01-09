@@ -19,10 +19,7 @@ const About = () => {
       <AboutTextWrapper>
         <AboutH1>Kai</AboutH1>
         <AboutP>
-          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-          aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-          dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-          sanctus est Lorem ipsum dolor sit amet.
+          Kai started producing edm music at the age of 12. He made his tracks in his bedroom. He then moved on to make hardstyle music in his self made studio. After producing some tracks, he enjoyed making frenchcore music the most.
         </AboutP>
       </AboutTextWrapper>
       <AboutImg>
